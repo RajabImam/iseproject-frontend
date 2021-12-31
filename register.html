@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/general.css" />
+        <link rel="stylesheet" type="text/css" href="css/register.css" />
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <title>ISEProject - </title>
+    </head>
+    <body>
+        <!--Navigation Menu-->
+        <nav class="navbar navbar">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="images/default.png" alt="" width="90" height="55" class="d-inline-block align-text-top">
+                
+              </a>
+              <span class="navbar-text">
+                The site made by the isepiens for the isepiens
+            </span>
+            </div>
+          </nav>
+
+
+        <!---End-->
+        
+               <!--Login Page -->
+               <div class="container-fluid p-5">
+                <div class="container">
+                    <div class="row">
+                        <!--Upload Profile -->
+                        <div class="col text-center">
+                            <form method="post">
+                                <img class="profile-img" width="100" height="100" src="images/laptop.jpg" alt="Avatar">
+                                <div class="mb-3">
+                                    <label for="profile" class="form-label">Upload profile picture</label>
+                                    <input class="form-control" type="file" id="profile">
+                                </div>
+                                <div class="p-1">
+                                    <button type="submit" class="btn">Valider</button> 
+                                 </div>
+                                 <div class="p-1">
+                                    <button type="submit" class="btn">Suprimer</button> 
+                                 </div>
+                                 
+                            </form>
+                        </div>
+                        <!--End--->
+    
+                        <!--Register Form -->
+                        <div class="col text-center">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="p-3">Inscription</h4>
+                            <form method="post">
+                                <div class="mb-3 p-1">
+                                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name">
+                                </div>
+                                <div class="mb-3 p-1">
+                                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="last Name">
+                                </div>
+                                <div class="row p-1">
+                                    <div class="col">
+                                      <input type="text" class="form-control" id="studentId" name="studentId" placeholder="Student ID">
+                                    </div>
+                                    <div class="col">
+                                      <input type="password" class="form-control" id="password" name="password" placeholder="Password">
+                                    </div>
+                                  </div>
+                                  <div class="mb-3 p-1">
+                                    <label class="p-1" for="specificSizeSelect">Promotion</label>
+                                    <select class="form-select" id="specificSizeSelect">
+                                      <option selected>Choose...</option>
+                                      <option value="1">A1</option>
+                                      <option value="2">A2</option>
+                                      <option value="3">A3</option>
+                                    </select>
+                                  </div>
+                                  <p class="p-1">Tu es alternant?</p>   
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="oui" id="oui" value="oui">
+                                    <label class="form-check-label" for="oui">Oui</label>
+                                  </div>
+                                  <div class="form-check form-check-inline">
+                                    <input class="form-check-input" type="radio" name="non" id="non" value="non">
+                                    <label class="form-check-label" for="non">Non</label>
+                                  </div>                           
+                                
+                              </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!--End--->
+                        
+                        <!--Group Section -->
+                        <div class="col">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="p-3">Group</h4>
+                                    <p>Invite tes camarades de groupe : </p>
+                                    
+                                </div>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="group" id="group" value="group">
+                                <label class="form-check-label" for="group">ignorer le groupe pour le moment</label>
+                              </div> 
+                        </div>
+                        <!--End--->
+                      </div>
+                </div>
+            </div>
+
+      <!--footer-->
+      <footer>
+          <div class="container">
+            <div class="row">
+                <div class="col"><a href="#">Nous contacter</a></div>
+                <div class="col"><a href="#">Aide et FAQ</a></div>
+                <div class="col"><a href="#">CGU</a></div>
+                <div class="col"><p> &copy; 2022 Copyright</p></div>
+              </div>
+            </div>
+      </footer>
+        
+
+    </body>
+</html>

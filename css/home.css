@@ -1,0 +1,23 @@
+.sectionOne {
+  background-color: #82ccdd !important;
+}
+.sectionTwo {
+  background-color: #60a3bc !important;
+  color: #fff;
+}
+.sectionThree {
+  background-color: #3c6382 !important;
+  color: #fff;
+}
+.sectionFour {
+  background-color: #0a3d62 !important;
+  color: #fff;
+}
+p {
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+}
